@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar2">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Edit"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Otros"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Geogebra, Descarga gratuita"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="FooPlot, Gr&#xe1;ficador Online"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar2"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="172" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentResized" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="jPanel1ComponentResized"/>
+      </Events>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="599" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Inicio">
+                <Property name="tabTitle" type="java.lang.String" value="Inicio"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" alignment="0" pref="167" max="32767" attributes="0"/>
+                  <Component id="jPanel6" alignment="0" pref="167" max="32767" attributes="0"/>
+                  <Component id="jPanel7" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jSlider1" alignment="1" pref="0" max="32767" attributes="0"/>
+                          <Component id="jSlider2" alignment="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" pref="121" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel7" min="-2" pref="112" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSlider1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSlider2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="261" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="V"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="jTextField1">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="0.00123456789"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField1KeyTyped"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="70" y="80" width="70" height="30"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="P"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="113" y="30" width="50" height="30"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="V_Siguiente">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="8" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="N"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="V_SiguienteActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="70" y="40" width="40" height="16"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="V_Anterior">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="8" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="B"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="V_AnteriorActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="70" y="60" width="40" height="16"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField3">
+                  <Properties>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
+                    <Property name="text" type="java.lang.String" value="3"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextField3KeyTyped"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="10" y="40" width="58" height="34"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Diferencial"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="10" y="20" width="60" height="20"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cambio"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="10" y="80" width="60" height="20"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton7">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="8" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="c"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="127" y="60" width="-1" height="16"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Cometa"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="jButton4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="S"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Calibri" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="R"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="P"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Zoom y Desplazamiento"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="Restaurar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="R"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RestaurarActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="20" y="80" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="Menos">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="-"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MenosActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="80" y="80" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="M&#xe1;s">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="M&#xe1;sActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="120" y="80" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="Arriba">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ArribaActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="60" y="20" width="50" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="Abajo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ab"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AbajoActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="60" y="50" width="50" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="Derecha">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="De"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DerechaActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="110" y="50" width="50" height="20"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JButton" name="Izquierda">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Iz"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IzquierdaActionPerformed"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="10" y="50" width="50" height="20"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ver Ecuaci&#xf3;n"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider1">
+              <Properties>
+                <Property name="maximum" type="int" value="0"/>
+                <Property name="minimum" type="int" value="-1000"/>
+                <Property name="value" type="int" value="-200"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSlider1StateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider2">
+              <Properties>
+                <Property name="maximum" type="int" value="1000"/>
+                <Property name="value" type="int" value="200"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSlider2StateChanged"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Configuraci&#xf3;n">
+                <Property name="tabTitle" type="java.lang.String" value="Configuraci&#xf3;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="DesfaceAstroCardioidal_Slider" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="PintarPoligono" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="EtiquetaEjes" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EtiquetaFunción" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="Cuadricula" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Ejes" max="32767" attributes="0"/>
+                              <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="InvertirRelacion" alignment="0" pref="150" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jScrollPane2" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jSlider3" pref="0" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jButton5" min="-2" pref="147" max="-2" attributes="0"/>
+                                      <EmptySpace pref="3" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Desface" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Cuadricula" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Ejes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="EtiquetaEjes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="EtiquetaFunción" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PintarPoligono" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="InvertirRelacion" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="118" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSlider3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="Desface" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DesfaceAstroCardioidal_Slider" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="119" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JRadioButton" name="Cuadricula">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Cuadricula"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CuadriculaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="Ejes">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Ejes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EjesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="EtiquetaEjes">
+              <Properties>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Etiquetas Ejes"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EtiquetaEjesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="EtiquetaFunci&#xf3;n">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Etiqueta de la Funci&#xf3;n"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EtiquetaFunci&#xf3;nActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="PintarPoligono">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pintar Poligono"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PintarPoligonoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="InvertirRelacion">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Invertir Relaci&#xf3;n"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InvertirRelacionActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="Modo">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="79">
+                        <StringItem index="0" value="Rectangular"/>
+                        <StringItem index="1" value="Polar"/>
+                        <StringItem index="2" value="PolarMod(rCos(&#x3b8;)Sen(5&#x3b8;),rSen(&#x3b8;)Sen(5&#x3b8;))"/>
+                        <StringItem index="3" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=3]"/>
+                        <StringItem index="4" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=4]"/>
+                        <StringItem index="5" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=5]"/>
+                        <StringItem index="6" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=6]"/>
+                        <StringItem index="7" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=7]"/>
+                        <StringItem index="8" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=8]"/>
+                        <StringItem index="9" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=9]"/>
+                        <StringItem index="10" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=10]"/>
+                        <StringItem index="11" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=11]"/>
+                        <StringItem index="12" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=12]"/>
+                        <StringItem index="13" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=13]"/>
+                        <StringItem index="14" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=14]"/>
+                        <StringItem index="15" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=15]"/>
+                        <StringItem index="16" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=16]"/>
+                        <StringItem index="17" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=17]"/>
+                        <StringItem index="18" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=18]"/>
+                        <StringItem index="19" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=19]"/>
+                        <StringItem index="20" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=20]"/>
+                        <StringItem index="21" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=21]"/>
+                        <StringItem index="22" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=22]"/>
+                        <StringItem index="23" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=23]"/>
+                        <StringItem index="24" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=24]"/>
+                        <StringItem index="25" value="(rSenAstroide(&#x3b8;,k),rCosAstroide(&#x3b8;,k))[k=25]"/>
+                        <StringItem index="26" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=1]"/>
+                        <StringItem index="27" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=2]"/>
+                        <StringItem index="28" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=3]"/>
+                        <StringItem index="29" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=4]"/>
+                        <StringItem index="30" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=5]"/>
+                        <StringItem index="31" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=6]"/>
+                        <StringItem index="32" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=7]"/>
+                        <StringItem index="33" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=8]"/>
+                        <StringItem index="34" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=9]"/>
+                        <StringItem index="35" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=10]"/>
+                        <StringItem index="36" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=11]"/>
+                        <StringItem index="37" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=12]"/>
+                        <StringItem index="38" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=13]"/>
+                        <StringItem index="39" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=14]"/>
+                        <StringItem index="40" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=15]"/>
+                        <StringItem index="41" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=16]"/>
+                        <StringItem index="42" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=17]"/>
+                        <StringItem index="43" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=18]"/>
+                        <StringItem index="44" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=19]"/>
+                        <StringItem index="45" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=20]"/>
+                        <StringItem index="46" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=21]"/>
+                        <StringItem index="47" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=22]"/>
+                        <StringItem index="48" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=23]"/>
+                        <StringItem index="49" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=24]"/>
+                        <StringItem index="50" value="(rSenCardioide(&#x3b8;,k),rCosCardioide(&#x3b8;,k))[k=25]"/>
+                        <StringItem index="51" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=1]"/>
+                        <StringItem index="52" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=2]"/>
+                        <StringItem index="53" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=3]"/>
+                        <StringItem index="54" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=4]"/>
+                        <StringItem index="55" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=5]"/>
+                        <StringItem index="56" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=6]"/>
+                        <StringItem index="57" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=7]"/>
+                        <StringItem index="58" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=8]"/>
+                        <StringItem index="59" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=9]"/>
+                        <StringItem index="60" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=10]"/>
+                        <StringItem index="61" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=11]"/>
+                        <StringItem index="62" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=12]"/>
+                        <StringItem index="63" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=13]"/>
+                        <StringItem index="64" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=14]"/>
+                        <StringItem index="65" value="(rSenPoligonoide(&#x3b8;,k),rCosPoligonoide(&#x3b8;,k))[k=15]"/>
+                        <StringItem index="66" value="(rSenPoligonoe(&#x3b8;,k),rCosPoligon(&#x3b8;,k))[k=3]"/>
+                        <StringItem index="67" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=4]"/>
+                        <StringItem index="68" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=5]"/>
+                        <StringItem index="69" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=6]"/>
+                        <StringItem index="70" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=7]"/>
+                        <StringItem index="71" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=8]"/>
+                        <StringItem index="72" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=9]"/>
+                        <StringItem index="73" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=10]"/>
+                        <StringItem index="74" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=11]"/>
+                        <StringItem index="75" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=12]"/>
+                        <StringItem index="76" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=13]"/>
+                        <StringItem index="77" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=14]"/>
+                        <StringItem index="78" value="(rSenPoligono(&#x3b8;,k),rCosPoligono(&#x3b8;,k))[k=15]"/>
+                      </StringArray>
+                    </Property>
+                    <Property name="selectedIndex" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                      <Connection code="0" type="code"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="valueChanged" listener="javax.swing.event.ListSelectionListener" parameters="javax.swing.event.ListSelectionEvent" handler="ModoValueChanged"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generar C&#xf3;digos"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="5"/>
+                    <Property name="rows" type="int" value="3"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JSlider" name="DesfaceAstroCardioidal_Slider">
+              <Properties>
+                <Property name="maximum" type="int" value="1000"/>
+                <Property name="minimum" type="int" value="-2000"/>
+                <Property name="value" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="DesfaceAstroCardioidal_SliderStateChanged"/>
+                <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="DesfaceAstroCardioidal_SliderKeyTyped"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="Desface">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSlider" name="jSlider3">
+              <Properties>
+                <Property name="maximum" type="int" value="720"/>
+                <Property name="value" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jSlider3StateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rotaci&#xf3;n"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
