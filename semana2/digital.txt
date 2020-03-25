@@ -1,0 +1,213 @@
+ //menor numero problema 11
+        int n, menor = 1;
+        System.out.println("cuantos numeros va introducir");
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            System.out.println("numero" + i);
+            int k = sc.nextInt();
+            if (i == 1) {
+                menor = k;
+            }
+
+            if (k < menor) {
+                menor = k;
+            }
+        }
+        System.out.println("el menor numero es: " + menor);
+
+        //barras problema 16
+        int[] y = new int[5];
+        
+                System.out.println("introduzca 5 numeros del 1 al 30");
+
+        for (int i = 0; i <= 4; i++) {
+            int m=i+1;
+            System.out.print("numero" + m+": ");
+            y[i] = sc.nextInt();
+        }
+        for (int s = 0; s <= 4; s++) {
+            for (int j = 1; j <= y[s]; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+    }
+
+
+
+
+
+
+//factorial
+    long factorial(int n) {
+
+        if (n == 0) {
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
+
+    }
+
+    //factorial impar
+     long factor(int n) {
+
+        if (n == 1) {
+            return 1;
+        } else 
+        {
+            return n * factor(n - 2);
+        }
+        
+
+    }
+
+
+
+//prblema 25 rombo modificado
+        int m, n;
+        System.out.println("Introduzca un numero impar entre el rango del 1 al 19 que sera el numero de filas del rombo");
+        Scanner sc = new Scanner(System.in);
+        m = sc.nextInt();
+        n = (m + 1) / 2;
+        for (int i = 1; i <= n; i++) {
+            System.out.println();
+
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print(" ");
+
+            }
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+        }
+        //segunda parte
+        for (int i = 1; i <= n - 1; i++) {
+            System.out.println();
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" ");
+
+            }
+            for (int j = 1; j <= 2 * n - 1 - 2 * i; j++) {
+                System.out.print("*");
+            }
+        }
+        System.out.println();
+
+//problema 13 factorial        
+        long resul;
+        recursividad prueba = new recursividad();
+        for (int i = 1; i <= 20; i++) {
+            resul = prueba.factorial(i);
+            System.out.println(resul + "\t");
+        }
+//problema 10 y 27
+        //for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 10; j++) {
+                for (int k = 1; k <= 5; k++) {
+                    System.out.print("@");
+                }
+                System.out.println();
+
+            }
+          //  System.out.println();
+        //}
+//problema 12
+long res;int i=1;
+        //recursividad prueba = new recursividad();
+       
+            res = prueba.factor(15);
+            System.out.println(res);
+        
+    }
+
+
+
+
+
+//primer triangulo
+        for (int j = 1; j <= 10; j++) {
+            System.out.println();
+            for (int i = 1; i <= j; i++) {
+
+                System.out.print("*");
+            }
+        }
+        //System.out.println();
+
+        //segundo triangulo
+        for (int j = 10; j >= 1; j--) {
+            System.out.println();
+            for (int i = 1; i <= j; i++) {
+
+                System.out.print("*");
+            }
+        }
+
+        //System.out.println();
+        //tercer triangulo   
+        for (int j = 10; j >= 1; j--) {
+            System.out.println();
+            for (int k = 10; k > j; k--) {
+                System.out.print(' ');
+            }
+
+            for (int i = 1; i <= j; i++) {
+
+                System.out.print("*");
+            }
+        }
+
+        //System.out.println();
+
+        //cuarto triangulo   
+        for (int j = 1; j <= 10; j++) {
+            System.out.println();
+            for (int k = 10; k >j; k--) {
+                System.out.print(' ');
+            }
+            for (int i = 0; i <j; i++) {
+                System.out.print("*");
+
+            }
+
+            
+        }
+
+        System.out.println();
+    }
+
+
+
+//mcm
+int x, y;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduzca el primer numero");
+        x = sc.nextInt();
+        System.out.println("Introduzca el segundo numero");
+        y = sc.nextInt();
+
+        int i = 2;
+        if (x < y) {
+            int r=x;
+            while (r % y != 0) {
+                r = x * i;
+                i++;
+            }
+            System.out.println("El minimo comun multiplo de "+x+" y "+y+" es igual a " + r);
+        } else if (y < x) {
+            int m=y;
+            while (m % x != 0) {
+                m = y * i;
+                i++;
+            }
+
+            System.out.println("El minimo comun multiplo de "+x+" y "+y+" es igual a " + m);
+        } else {
+            System.out.println("El minimo comun multiplo es igual a " + x);
+
+        }
+    }
